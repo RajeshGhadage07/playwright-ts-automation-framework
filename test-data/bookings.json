@@ -1,0 +1,14 @@
+[
+  {
+    "firstname": "Rajesh", "lastname": "Ghadage", "totalprice": 1500, "depositpaid": true,
+    "bookingdates": { "checkin": "2026-11-01", "checkout": "2026-11-05" }, "additionalneeds": "Breakfast"
+  },
+  {
+    "firstname": "Amit", "lastname": "Patil", "totalprice": 2200, "depositpaid": false,
+    "bookingdates": { "checkin": "2026-12-10", "checkout": "2026-12-15" }, "additionalneeds": "Airport pickup"
+  },
+  {
+    "firstname": "Priya", "lastname": "Sharma", "totalprice": 980, "depositpaid": true,
+    "bookingdates": { "checkin": "2027-01-20", "checkout": "2027-01-22" }, "additionalneeds": "Late checkout"
+  }
+]

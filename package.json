@@ -1,0 +1,25 @@
+{
+  "name": "playwright-ts-automation-framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript test automation framework (UI + API) with Page Object Model, custom fixtures, data-driven tests and cross-browser execution",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:ui": "playwright test --project=chromium --project=firefox --project=webkit",
+    "test:chromium": "playwright test --project=chromium",
+    "test:api": "playwright test --project=api",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --project=chromium --debug",
+    "report": "playwright show-report"
+  },
+  "keywords": ["playwright", "typescript", "test-automation", "page-object-model", "api-testing", "sdet"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.0"
+  }
+}

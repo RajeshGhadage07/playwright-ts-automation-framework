@@ -1,0 +1,8 @@
+{
+  "valid": { "firstName": "Rajesh", "lastName": "Ghadage", "postalCode": "400601" },
+  "invalid": [
+    { "scenario": "missing first name", "firstName": "", "lastName": "Ghadage", "postalCode": "400601", "error": "First Name is required" },
+    { "scenario": "missing last name", "firstName": "Rajesh", "lastName": "", "postalCode": "400601", "error": "Last Name is required" },
+    { "scenario": "missing postal code", "firstName": "Rajesh", "lastName": "Ghadage", "postalCode": "", "error": "Postal Code is required" }
+  ]
+}
